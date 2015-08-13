@@ -125,6 +125,10 @@ input {
      border-bottom: 1px dotted gray;
 }
 
+.banner button {
+     margin-left: 2%;
+}
+
 h1 {
      font-size: 2em;
      margin: 1% 1% 1% 0;
@@ -132,6 +136,7 @@ h1 {
 
 section {
      margin-bottom: 2%;
+     margin-left: 2%;
      padding-bottom: 2%;
 }
 
@@ -142,6 +147,10 @@ section {
 
 .sort {
      float: right;
+}
+
+h2 {
+     margin-bottom: 30px;
 }
 
 .tile-voting {
@@ -176,6 +185,7 @@ h4 {
      background-color: #eeeeee;
      display: inline-block;
      text-align: center;
+     margin: 2% 2% 0 2%;
 }
 
 .tea-info {
