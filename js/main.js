@@ -50,10 +50,9 @@ $('document').ready(function() {
       //Creates input to allow user to submit new ranking values and reorder list
       //Variable identifies total length of items in .myvotes ol
       var numberOfTeasInMyVotes = $('.myvotes li').length + 1;
-      //
+      //Variable to create the input for the li to add it to the last position of the ol
       var orderInput = $('<input />', {type: 'number', value: numberOfTeasInMyVotes});
       li.prepend(orderInput);
-
       li.appendTo('.myvotes');
     }
   });
@@ -101,7 +100,7 @@ $('document').ready(function() {
   }
 
   
-  // Reset the values of the vote inputs now that the item positions have updated.
+  //Update the values of the  inputs now that item positions have updated
   function updateInputValuesBasedOnPosition() {
     $('.myvotes li input').each(function(index) {
       $(this).val(index + 1);
