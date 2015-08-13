@@ -170,9 +170,12 @@ h4 {
 .vote-button {
      border: 1px solid black;
      border-radius: 5px;
-     height: 35px;
+     padding: 2%;
+     width: 50%;
      font-size: .9em;
      background-color: #eeeeee;
+     display: inline-block;
+     text-align: center;
 }
 
 .tea-info {
@@ -213,12 +216,22 @@ h4 {
      margin-bottom: 125px;
 }
 
+.voted-on-tea {
+     clear: both;
+}
+
 .voted-on-tea .tea-photo {
      max-height: 80px;
      float: left;
+     margin-right: 2%;
 }
 
 .voted-on-tea .names {
+     float: left;
+}
+
+.voted-on-tea input {
+     max-width: 40px;
      float: left;
 }
 
