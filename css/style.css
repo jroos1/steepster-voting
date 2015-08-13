@@ -132,7 +132,6 @@ h1 {
 
 section {
      margin-bottom: 2%;
-     padding-bottom: 2%;
 }
 
 .banner p {
@@ -153,7 +152,6 @@ section {
 }
 
 .tile-category {
-     width: 50%;
      margin: 2% auto;
      padding-bottom: 3%;
      position: relative;

@@ -1,15 +1,15 @@
 $('document').ready(function() {
 
-  //Not using responsive design for this page, sorry...
-  // $('.right-nav').click(function() {
-  //   $('.nav-mobile').slideToggle();
-  // });
+  //Not using responsive design on all pages, sorry...
+  $('.right-nav').click(function() {
+    $('.nav-mobile').slideToggle();
+  });
 
-  // $( window ).resize(function() {
-  //   if($( window ).width() >= 1024) {
-  //       $('.nav-mobile').hide();
-  //   }
-  // });
+  $( window ).resize(function() {
+    if($( window ).width() >= 1024) {
+        $('.nav-mobile').hide();
+    }
+  });
 
 
   $('.vote-button').click(function() {
