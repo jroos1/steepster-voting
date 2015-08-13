@@ -167,8 +167,12 @@ h4 {
      text-align: center;
 }
 
-.tile-voting button {
-     width: 40%;
+.vote-button {
+     border: 1px solid black;
+     border-radius: 5px;
+     height: 35px;
+     font-size: .9em;
+     background-color: #eeeeee;
 }
 
 .tea-info {
@@ -195,11 +199,6 @@ h4 {
 .counts {
      color: #838383;
      font-size: .8em;
-}
-
-.vote {
-     height: 40px;
-     font-size: .9em;
 }
 
 .voted {
