@@ -167,7 +167,7 @@ section {
 h3 {
      text-align: center;
      font-size: 1.5em;
-     margin: 4%;
+     margin: 2%;
      padding-top: 7%
 }
 
@@ -198,11 +198,16 @@ h4 {
      font-size: .8em;
 }
 
-.vote {
-     width: 150px;
-     margin: 6% auto;
-     height: 50px;
+.category-button {
+     border: 1px solid black;
+     border-radius: 5px;
+     padding: 2%;
+     width: 50%;
      font-size: .9em;
+     background-color: #eeeeee;
+     display: inline-block;
+     text-align: center;
+     margin: 2% 2% 0 2%;
 }
 
 /******************************************
@@ -252,6 +257,14 @@ h4 {
           float: none;
      }
 
+     .tile-category {
+          width: 30%;
+          margin: 1%;
+          padding-bottom: 1%;
+          position: relative;
+          background-color: #f1f0d1;
+          float: left;
+     }
 }
 
 
@@ -261,12 +274,5 @@ h4 {
 /*******************************************/
 
 @media screen and (min-width: 1024px) {
-     main {
-          width: 75%;
-     }
-
-     aside {
-          width: 25%;
-     }
 
 }
