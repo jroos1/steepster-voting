@@ -213,6 +213,16 @@ h4 {
      margin-bottom: 125px;
 }
 
+.voted-on-tea .tea-photo {
+     max-height: 80px;
+     float: left;
+}
+
+.voted-on-tea .names {
+     float: left;
+}
+
+
 aside button {
      margin: 8% auto;
      font-size: 1.2em;
