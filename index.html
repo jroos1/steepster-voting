@@ -5,35 +5,326 @@
     	<meta name="description" content="Your description goes here">
     	<meta name="keywords" content="one, two, three">
 	
-		<title>Blank Template</title>
+		<title>Vote for the Best Teas - Steepster</title>
 		
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/reset.css">
-
 		<link rel="stylesheet" href="css/style.css">
 
 	</head>
 	<body>
 
 		<header>
-			<h1>Hello</h1>
-			<h2>Hi Guys</h2>
-			<nav>
-				<ul>
-					<li>nav 1</li>
-					<li>nav 2</li>
-					<li>nav 3</li>
-				</ul>
-			</nav>
+
+			<div class="container">
+
+				<div class="nav-top clearfix">
+
+					<img class="logo" src="images/logo-steepster.png">
+					<img class="right-nav" src="images/hamburger.png">
+					<nav class="nav nav-mobile">
+						<ul>
+							<li><a href="#">Teas</a></li>
+							<li><a href="#">Places</a></li>
+							<li><a href="#">Discussions</a></li>
+							<li><a href="#">Explore</a></li>
+							<li><a href="#">Voting</a></li>
+							<li><a href="#">Invite Friends</a></li>
+							<li>You</li>
+							<li><a href="#">Messages</a></li>
+							<li><a href="#">Dashboard</a></li>
+							<li><a href="#">Tealog</a></li>
+							<li><a href="#">Tea Ratings</a></li>
+							<li><a href="#">Cupboard</a></li>
+							<li><a href="#">Wishlist</a></li>
+							<li><a href="#">Place Ratings</a></li>
+							<li><a href="#">Account</a></li>
+							<li><a href="#">Log Out</a></li>
+						</ul>
+					</nav>
+
+					<nav class="nav nav-main">
+						<ul>
+							<li><a href="#">Teas</a></li>
+							<li><a href="#">Places</a></li>
+							<li><a href="#">Discussions</a></li>
+							<li><a href="#">Explore</a></li>
+							<li><a href="#">Voting</a></li>
+						</ul>
+					</nav>
+
+					<nav class="nav nav-user">
+						<ul>
+							<li><a class="user-link" href="#">You</a>
+								<ul class="nav nav-hover">
+									<li><a href="#">Dashboard</a></li>
+									<li><a href="#">Tealog</a></li>
+									<li><a href="#">Tea Ratings</a></li>
+									<li><a href="#">Cupboard</a></li>
+									<li><a href="#">Wishlist</a></li>
+									<li><a href="#">Place Ratings</a></li>
+									<li><a href="#">Account</a></li>
+									<li><a href="#">Log Out</a></li>
+								</ul>
+							<li><a href="#"><img class="mail" src="images/mail.png"></a></li>
+							<li><a href="#">Invite Friends</a></li>
+							</li>
+						</ul>
+					</nav>
+
+				</div>
+				
+				<div class="nav-sub">
+
+					<nav class="nav">
+						<div class="breadcrumbs">
+						</div>
+						<form>
+							<input type="search" name="search" value="Find a tea...">
+						</form>
+					</nav>
+
+				</div>
+
+			</div>
+
 		</header>
 
+		<section class="banner">
+
+			<div class="container">
+
+				<img src="">
+				<h1>Best Teas of 2015</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin viverra nisi orci, a viverra magna consectetur quis. Sed sagittis sem convallis velit convallis, vitae consectetur diam gravida. Fusce vel eros lacinia, venenatis justo ut, egestas quam. Ut ut lorem id velit consectetur bibendum. In ornare orci ex, nec volutpat urna egestas et. Sed mattis bibendum risus. Ut consectetur at metus eget condimentum. Proin facilisis blandit aliquet. Etiam blandit eleifend tellus at placerat. Suspendisse laoreet lobortis gravida.</p>
+				<h2 class="vote-count">1,000,000 Votes Cast</h2>
+				<a class="hero-button" href="#">Vote Now!</a>
+				<p>Voting closes in X days.</p>
+
+			</div>
+
+		</section>
+
 		<main>
+			
+			<div class="container">
+
+				<h2>Categories</h3>
+				
+				<div class="row-category">
+					
+					<div class="tile-category">
+						<h3>Black Tea</h2>
+						<div class="tea-info">
+							<h4>Current Leader</h4>
+							<div>
+								<img class="rating" src="images/rating.png">
+								<img class="tea-photo" src="http://placehold.it/200x200">
+							</div>
+							<div class="tea-details">
+								<a class="names" href="#">
+									<h5>Tea Name</h5>
+									<h5>Vendor / Company</h5>
+								</a>
+								<a class="counts" href="#">
+									<h5># of Tasting Notes</h5>
+									<h5># of Ratings</h5>
+								</a>
+							</div>
+						</div>
+						<button class="vote" stype="button">Vote for Black Teas Now!</button>
+					</div>
+					
+					<div class="tile-category">
+						<h3>Black Tea</h2>
+						<h4>Current Leader</h4>
+						<div class="tea-info">
+							<div class="tea-photo">
+								<img src="images/rating.png">
+								<img src="http://placehold.it/200x200">
+							</div>
+							<div class="tea-details">
+								<a href="#">
+									<h5>Tea Name</h5>
+									<h5>Company</h5>
+								</a>
+								<a href="#">
+									<h5># of Tasting Notes</h5>
+									<h5># of Ratings</h5>
+								</a>
+							</div>
+						</div>
+						<button type="button">Vote for Black Teas Now!</button>
+					</div>
+					
+					<div class="tile-category">
+						<h3>Black Tea</h2>
+						<h4>Current Leader</h4>
+						<div class="tea-info">
+							<div class="tea-photo">
+								<img src="images/rating.png">
+								<img src="http://placehold.it/200x200">
+							</div>
+							<div class="tea-details">
+								<a href="#">
+									<h5>Tea Name</h5>
+									<h5>Company</h5>
+								</a>
+								<a href="#">
+									<h5># of Tasting Notes</h5>
+									<h5># of Ratings</h5>
+								</a>
+							</div>
+						</div>
+						<button type="button">Vote for Black Teas Now!</button>
+					</div>
+				</div>
+
+				<div class="row-category">
+					
+					<div class="tile-category">
+						<h3>Black Tea</h2>
+						<h4>Current Leader</h4>
+						<div class="tea-info">
+							<div class="tea-photo">
+								<img src="images/rating.png">
+								<img src="http://placehold.it/200x200">
+							</div>
+							<div class="tea-details">
+								<a href="#">
+									<h5>Tea Name</h5>
+									<h5>Company</h5>
+								</a>
+								<a href="#">
+									<h5># of Tasting Notes</h5>
+									<h5># of Ratings</h5>
+								</a>
+							</div>
+						</div>
+						<button type="button">Vote for Black Teas Now!</button>
+					</div>
+					
+					<div class="tile-category">
+						<h3>Black Tea</h2>
+						<h4>Current Leader</h4>
+						<div class="tea-info">
+							<div class="tea-photo">
+								<img src="images/rating.png">
+								<img src="http://placehold.it/200x200">
+							</div>
+							<div class="tea-details">
+								<a href="#">
+									<h5>Tea Name</h5>
+									<h5>Company</h5>
+								</a>
+								<a href="#">
+									<h5># of Tasting Notes</h5>
+									<h5># of Ratings</h5>
+								</a>
+							</div>
+						</div>
+						<button type="button">Vote for Black Teas Now!</button>
+					</div>
+					
+					<div class="tile-category">
+						<h3>Black Tea</h2>
+						<h4>Current Leader</h4>
+						<div class="tea-info">
+							<div class="tea-photo">
+								<img src="images/rating.png">
+								<img src="http://placehold.it/200x200">
+							</div>
+							<div class="tea-details">
+								<a href="#">
+									<h5>Tea Name</h5>
+									<h5>Company</h5>
+								</a>
+								<a href="#">
+									<h5># of Tasting Notes</h5>
+									<h5># of Ratings</h5>
+								</a>
+							</div>
+						</div>
+						<button type="button">Vote for Black Teas Now!</button>
+					</div>
+				</div>
+
+				<div class="row-category">
+					
+					<div class="tile-category">
+						<h3>Black Tea</h2>
+						<h4>Current Leader</h4>
+						<div class="tea-info">
+							<div class="tea-photo">
+								<img src="images/rating.png">
+								<img src="http://placehold.it/200x200">
+							</div>
+							<div class="tea-details">
+								<a href="#">
+									<h5>Tea Name</h5>
+									<h5>Company</h5>
+								</a>
+								<a href="#">
+									<h5># of Tasting Notes</h5>
+									<h5># of Ratings</h5>
+								</a>
+							</div>
+						</div>
+						<button type="button">Vote for Black Teas Now!</button>
+					</div>
+					
+					<div class="tile-category">
+						<h3>Black Tea</h2>
+						<h4>Current Leader</h4>
+						<div class="tea-info">
+							<div class="tea-photo">
+								<img src="images/rating.png">
+								<img src="http://placehold.it/200x200">
+							</div>
+							<div class="tea-details">
+								<a href="#">
+									<h5>Tea Name</h5>
+									<h5>Company</h5>
+								</a>
+								<a href="#">
+									<h5># of Tasting Notes</h5>
+									<h5># of Ratings</h5>
+								</a>
+							</div>
+						</div>
+						<button type="button">Vote for Black Teas Now!</button>
+					</div>
+					
+					<div class="tile-category">
+						<h3>Black Tea</h2>
+						<h4>Current Leader</h4>
+						<div class="tea-info">
+							<div class="tea-photo">
+								<img src="images/rating.png">
+								<img src="http://placehold.it/200x200">
+							</div>
+							<div class="tea-details">
+								<a href="#">
+									<h5>Tea Name</h5>
+									<h5>Company</h5>
+								</a>
+								<a href="#">
+									<h5># of Tasting Notes</h5>
+									<h5># of Ratings</h5>
+								</a>
+							</div>
+						</div>
+						<button type="button">Vote for Black Teas Now!</button>
+					</div>
+				</div>
+
+			</div>
+
 		</main>
 
-		<aside>
-		</aside>
-
 		<footer>
+			<div class="container">
+			</div>
 		</footer>
 
 		<!-- javascript -->
