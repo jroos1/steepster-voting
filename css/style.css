@@ -157,7 +157,7 @@ section {
      margin: 2% auto;
      padding-bottom: 3%;
      position: relative;
-     background-color: #f1f0d1;
+     background-color: white;
 }
 
 .tile-category:hover {
@@ -204,10 +204,10 @@ h4 {
      padding: 2%;
      width: 50%;
      font-size: .9em;
-     background-color: #eeeeee;
-     display: inline-block;
+     background-color: white;
+     display: block;
      text-align: center;
-     margin: 2% 2% 0 2%;
+     margin: 2% auto;
 }
 
 /******************************************
@@ -258,8 +258,8 @@ h4 {
      }
 
      .tile-category {
-          width: 30%;
-          margin: 1%;
+          width: 24%;
+          margin: 3%;
           padding-bottom: 1%;
           position: relative;
           background-color: #f1f0d1;
